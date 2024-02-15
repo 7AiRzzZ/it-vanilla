@@ -1,0 +1,128 @@
+body {
+  background-color: wheat;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.container1{
+  display: flex;
+  flex-direction:row;
+  
+}
+
+.custom {
+  display: grid;
+  grid-template-columns: 3;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  text-decoration-color: black;
+  border-radius: 20px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px;
+  border: solid;
+  border-color: black;
+}
+
+ul {
+  display: flex ;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.margin-x{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margin-y{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:xx-large;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.title1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:100px;
+  margin-top: 250px;
+  
+}
+
+.button{
+  border: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: black;
+  height: 50px;
+  width: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+
+}
+
+
+.text{
+  font-size: x-large;
+  text-align: center;
+  ;
+
+}
+.textgrid{
+  text-align: center;
+  font-size: xx-large;
+  display: grid;
+  grid-template-columns: 1;
+
+
+}
+
+
+.inputsize{
+  width: 350px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.blackline{
+  border-color: black;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
